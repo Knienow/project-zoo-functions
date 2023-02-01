@@ -5,8 +5,6 @@ const getSpeciesByIds = (...ids) => {
     return [];
   }
   const specieId = data.species.filter((id) => ids.includes(id.id));
-  // forEach
-  // const getId = data.species.find((specie) => specie.id === )
   return specieId;
 };
 
