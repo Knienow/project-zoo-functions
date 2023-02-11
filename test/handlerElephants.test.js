@@ -32,8 +32,9 @@ describe('Testes da função HandlerElephants', () => {
     expect(actual).toEqual(expected);
   });
   it('Não passando argumentos a função deve retornar undefined', () => {
-    const actual = handlerElephants();
-    const expected = undefined;
-    expect(actual).toEqual(expected);
+    // const actual = handlerElephants();
+    // const expected = undefined;
+    // expect(actual).toEqual(expected);
+    expect(handlerElephants()).toBeUndefined();
   });
 });
